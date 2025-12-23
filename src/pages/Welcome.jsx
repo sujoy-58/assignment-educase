@@ -26,7 +26,7 @@ const Welcome = () => {
         <div className="flex flex-col gap-3">
           <button
             type="button"
-            className="w-full py-3 bg-primary text-white font-medium rounded-md hover:bg-purple-700 transition cursor-pointer"
+            className="w-full py-3 bg-primary text-white font-medium rounded-xs hover:bg-purple-700 transition cursor-pointer"
             onClick={handleSignup}
           >
             Create Account
@@ -34,7 +34,7 @@ const Welcome = () => {
 
           <button
             type="button"
-            className="w-full py-3 bg-secondary-btn text-blue-950 font-medium rounded-md cursor-pointer"
+            className="w-full py-3 bg-secondary-btn text-blue-950 font-medium rounded-xs cursor-pointer"
             onClick={handleLogin}
           >
             Already Registered? Login

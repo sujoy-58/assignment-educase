@@ -67,9 +67,9 @@ const Signin = () => {
           <button
             type="submit"
             disabled={!isFormValid}
-            className={`w-full py-3 rounded-md font-medium transition ${
+            className={`w-full py-3 rounded-xs font-medium transition ${
               isFormValid
-                ? "bg-primary text-white hover:bg-purple-700"
+                ? "bg-primary text-white hover:bg-purple-700 cursor-pointer"
                 : "bg-black/25 text-white cursor-not-allowed"
             }`}
           >
