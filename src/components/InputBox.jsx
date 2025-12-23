@@ -10,7 +10,7 @@ const InputBox = ({
   
 }) => {
   return (
-    <fieldset className="border border-gray-300 rounded-sm px-3 py-1 focus-within:border-purple-600 text-sm font-medium">
+    <fieldset className="border border-gray-300 rounded-xs px-3 py-1 focus-within:border-purple-600 text-sm font-medium">
       <legend className="text-xs text-primary px-2">
         {text} {required && <span className="text-red">*</span>}
       </legend>
